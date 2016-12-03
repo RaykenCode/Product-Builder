@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+
+	<title>Product Builder</title>
+</head>
+<body>
+
+  <div class="cd-product-builder">
+  	<header class="main-header">
+  		<h1>Product Builder</h1>
+
+  		<nav class="cd-builder-main-nav disabled">
+  			<ul>
+  				<li class="active"><a href="#models">Models</a></li>
+  				<li><a href="#colors">Colors</a></li>
+  				<li><a href="#accessories">Accessories</a></li>
+  				<li><a href="#summary">Summary</a></li>
+  			</ul>
+  		</nav>
+  	</header>
+
+  	<div class="cd-builder-steps">
+  		<ul>
+  			<li data-selection="models" class="active builder-step">
+  				<section class="cd-step-content">
+  					<header>
+  						<h1>Select Model</h1>
+  						<span class="steps-indicator">Step <b>1</b> of 4</span>
+  					</header>
+
+  					<a href="#0" class="cd-nugget-info">Article &amp; Downaload</a>
+
+  					<ul class="models-list options-list cd-col-2">
+  						<!-- models here -->
+  					</ul>
+  				</section>
+  			</li>
+  			<!-- additional content will be inserted using ajax -->
+  		</ul>
+  	</div>
+
+  	<footer class="cd-builder-footer disabled step-1">
+  		<div class="selected-product">
+  			<img src="img/product01_col01.jpg" alt="Product preview">
+
+  			<div class="tot-price">
+  				<span>Total</span>
+  				<span class="total">$<b>0</b></span>
+  			</div>
+  		</div>
+
+  		<nav class="cd-builder-secondary-nav">
+  			<ul>
+  				<li class="next nav-item">
+  					<ul>
+  						<li class="visible"><a href="#0">Colors</a></li>
+  						<li><a href="#0">Accessories</a></li>
+  						<li><a href="#0">Summary</a></li>
+  						<li class="buy"><a href="#0">Buy Now</a></li>
+  					</ul>
+  				</li>
+  				<li class="prev nav-item">
+  					<ul>
+  						<li class="visible"><a href="#0">Models</a></li>
+  						<li><a href="#0">Models</a></li>
+  						<li><a href="#0">Colors</a></li>
+  						<li><a href="#0">Accessories</a></li>
+  					</ul>
+  				</li>
+  			</ul>
+  		</nav>
+
+  		<span class="alert">Please, select a model first!</span>
+  	</footer>
+  </div>
+
+
+
+</body>
+</html>
