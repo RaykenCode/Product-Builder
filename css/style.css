@@ -1,0 +1,20 @@
+.cd-builder-steps > ul {
+  height: 100%;
+  overflow: hidden;
+}
+.cd-builder-steps .builder-step {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  visibility: hidden;
+  transition: visibility .5s;
+}
+.cd-builder-steps .builder-step.active {
+  position: relative;
+  z-index: 2;
+  visibility: visible;
+}
